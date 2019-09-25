@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/mithun"
+              android:weightSum="1">
+
+
+
+    <TextView
+        android:textColor="#FF121012"
+        android:scaleY="1.9"
+        android:scaleX="1.2"
+        android:textStyle="bold"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:text="Attendance Management System"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp" />
+
+    <TextView
+
+        android:textColor="#FF055E5B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/liststyle"
+        android:text="@string/add_new_klass"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textSize="40sp"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/liststyle"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:scaleY="1.5"
+                android:textStyle="bold"
+
+                   android:textColor="#FFDFE0E7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/klassName"
+                    android:textSize="28sp"
+                    android:id="@+id/textView"
+                    android:layout_column="1"/>
+
+            <EditText
+
+                    android:hint="Class No"
+                    android:textColorHint="#FF13070B"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="186dp"
+                    android:background="@drawable/backround"
+                    android:layout_height="40dp"
+                    android:maxLines="1"
+                    android:id="@+id/editTextKlassName"
+                    android:layout_column="2"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:scaleY="1.5"
+
+                android:textStyle="bold"
+                    android:textColor="#FF13070B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/numofstudents"
+                    android:id="@+id/textView2"
+                    android:textSize="28sp"
+                    android:layout_column="1"/>
+
+            <EditText
+
+                    android:textColorHint="#FF0919AE"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="166dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/editText_numOfStudents"
+                    android:background="@drawable/backround"
+                    android:hint="Total Student"
+                    android:inputType="number"
+                    android:layout_column="2"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:background="#FF1A1919"
+                android:textColor="#FFF1E106"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:id="@+id/addKlassButton"
+                android:layout_height="wrap_content"
+                android:text="@string/addKlass"
+                android:layout_gravity="center_horizontal"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

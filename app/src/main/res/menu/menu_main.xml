@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".Attendance1.MainActivity">
+
+
+      <item android:id="@+id/add_attendance"
+            android:title="@string/addAttendance"
+            android:orderInCategory="1"
+            android:icon="@android:drawable/ic_menu_add"
+            app:showAsAction="ifRoom|withText"/>
+
+      <item
+          android:id="@+id/aboutt"
+          android:title="Developer by"
+
+          />
+
+
+      <item android:id="@+id/parcentance"
+          android:title="%"
+          />
+
+
+      <item android:id="@+id/add_klass"
+            android:title="@string/addKlass"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="3"
+            app:showAsAction="ifRoom|withText"/>
+
+
+
+      <item android:id="@+id/add_lecture"
+            android:title="@string/addLecture"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="2"
+            app:showAsAction="ifRoom|withText"/>
+
+
+</menu>

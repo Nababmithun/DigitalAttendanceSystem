@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_parcentanceeeeeeeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.codedleaf.sylveryte.attendanceapp.Attendance1.parcentanceeeeeeeeeee">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+
+
+
+            <TextView
+                android:scaleX="2"
+                android:scaleY="2"
+                android:textStyle="bold"
+                android:id="@+id/what"
+
+                android:textColor="#FF0E0E0E"
+                android:layout_marginTop="20dp"
+                android:textSize="40dp"
+                android:text="%"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+
+            android:gravity="center"
+            android:textColorHint="#FFAF0B0B"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+            android:inputType="numberDecimal"
+            android:hint="Present"
+            android:textSize="30dp"
+            android:id="@+id/present"
+            android:layout_width="360dp"
+            android:layout_height="80dp" />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/offf"
+        android:scaleY="2"
+        android:layout_marginTop="29dp"
+        android:textColor="#FF3E012D"
+        android:textSize="40dp"
+        android:text="OF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:textColorHint="#FFAF0B0B"
+        android:hint="Total Class"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:inputType="numberDecimal"
+        android:id="@+id/totalclass"
+        android:layout_marginTop="29dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_width="360dp"
+        android:layout_height="80dp" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:id="@+id/calculate"
+        android:textSize="27dp"
+        android:text="Ans:"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="140dp"
+        android:layout_height="60dp" />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:scaleX="1.2"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/result"
+        android:layout_marginTop="9dp"
+        android:textSize="35dp"
+        android:text="Result:"
+        android:textColor="#FF040473"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
